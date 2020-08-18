@@ -1,0 +1,28 @@
+#include<math.h>
+floor() 向下取整
+ceil() 向下取整
+
+
+
+#include<string.h>
+memcpy(a,b,sizeof(DataType)*k); 将数组a中的k个元素复制到b，全部复制则省略k。
+memset(a,0,sizeof(a)); 将数组a清零
+strchr(s, buf[i]) 在字符串s中查找buf[i]字符
+strcmp(a,b)字符串比较
+strcat(a,b)字符串连接
+
+fgetc(fin);读取一个打开的文件fin,读取一个字符，然后返回一个int值。如果文件结束，fgetc将返回一个特殊标记EOF，它并不是一个char.
+getchar()   <==>  fgetc(stdin) 从标准输入读取一个字符
+fgets(buf,maxn,fin) 读取完整一行，buf为char buf[maxn].当一个字符都没有读到时，返回NULL。
+gets(s)没有指明读取的最大字符数，gets将不停地往s中存储内容，所以最好不要使用。而且在C11标准中已被删除。
+
+
+#include<ctype.h>
+isalpha() 判断是否为字母
+isdigit() 判断是否为数字
+isprint() 判断字符是否为可打印字符
+toupper() tolower() 转换大小写
+
+其他
+const double pi = acos(-1.0);
+printf输出到屏幕，fprintf输出到文件，sprintf输出到字符串
