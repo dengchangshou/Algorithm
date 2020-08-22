@@ -1,8 +1,5 @@
 package algorithm.java.niukewang;
 
-
-import sun.security.util.Length;
-
 import java.util.ArrayList;
 
 //输入一个链表，反转链表后，输出新链表的表头。
