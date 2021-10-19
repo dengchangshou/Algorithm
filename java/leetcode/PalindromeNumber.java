@@ -2,7 +2,7 @@ package algorithm.java.leetcode;
 
 import java.util.Arrays;
 
-//回文数
+//9.回文数
 public class PalindromeNumber {
     //转换为字符串
     public boolean isPalindrome(int x) {
