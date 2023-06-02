@@ -19,16 +19,6 @@ public class MaximumTastinessOfCandyBasket {
         return left;
     }
 
-
-    public boolean findMax(int[] arr, int k, int tastiness){
-        int bigger = 0;
-        for(int i = 0; i < arr.length - 1; i++){
-            if(Math.abs(arr[i] - arr[i + 1]) >= tastiness){
-                bigger++;
-            }
-        }
-        return bigger >= k;
-    }
     public boolean check(int[] price, int k, int tastiness) {
         int prev = Integer.MIN_VALUE / 2;
         int cnt = 0;
