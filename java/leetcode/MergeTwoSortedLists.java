@@ -1,5 +1,7 @@
 package algorithm.java.leetcode;
 
+import algorithm.java.leetcode.vo.ListNode;
+
 //21. 合并两个有序链表
 public class MergeTwoSortedLists {
 
@@ -41,22 +43,5 @@ public class MergeTwoSortedLists {
         }
     }
 
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
 }
 
