@@ -1,6 +1,6 @@
 package algorithm.java.leetcode;
 
-//7.整数反转
+// 7.整数反转
 public class ReverseInteger {
 
     public int reverse(int x) {
