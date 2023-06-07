@@ -1,7 +1,5 @@
 package algorithm.java.leetcode;
 
-import com.sun.deploy.util.ArrayUtil;
-
 import java.util.Arrays;
 
 
