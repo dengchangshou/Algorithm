@@ -1,6 +1,6 @@
 package algorithm.java.leetcode;
 
-//172.阶乘后的零
+// 172.阶乘后的零
 public class FactorialTrailingZeroes {
     public static int trailingZeroes(int n) {
         int result = 0;
