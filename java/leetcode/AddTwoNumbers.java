@@ -1,5 +1,5 @@
 package algorithm.java.leetcode;
-//2.两数相加
+// 2.两数相加
 public class AddTwoNumbers {
     // Definition for singly-linked list.
     public static class ListNode {
