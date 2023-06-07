@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-//1.两数之和
+// 1.两数之和
 public class TwoSum {
 
     //hash法
